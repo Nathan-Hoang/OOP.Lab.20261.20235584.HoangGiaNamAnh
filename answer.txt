@@ -1,0 +1,9 @@
+Questions (appeared in 6.1):
+- What happens if the user chooses "Cancel"?
+Ans: The program will consider that option is "No"
+- How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t”?
+Ans: Create an object that houses the custom options, in this case are "Yes" and "No",
+then pass it in the dialog to define the custom labels. 
+Additionally, the dialog in this case is a Yes/No question, so we can use a constant called “YES_NO_OPTION” 
+to strictly specify that there are only two options “Yes” and “No”, 
+which allows the dialog to choose “No” if the user closes the dialog instead of choosing.
